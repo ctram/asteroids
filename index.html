@@ -17,14 +17,17 @@
     <script type="application/javascript">
       (function () {
         var canvasEl = document.getElementsByTagName("canvas")[0];
+        canvasEl.width = window.innerWidth;
+        canvasEl.height = window.innerHeight;
 
         var ctx = canvasEl.getContext("2d");
 
         var options = {
-          DIM_X: window.innerWidth,
-          DIM_Y: window.innerHeight,
+          DIM_X: canvasEl.width,
+          DIM_Y: canvasEl.height,
           ctx: ctx
         }
+
         var gameView = new Asteroids.GameView(options);
         gameView.start();
       })();
