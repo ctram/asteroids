@@ -10,12 +10,23 @@
 
     <script type="application/javascript" src="lib/util.js"></script>
     <script type="application/javascript" src="lib/MovingObject.js"></script>
+    <script type="application/javascript" src="lib/asteroid.js"></script>
+    <script type="application/javascript" src="lib/game.js"></script>
+    <script type="application/javascript" src="lib/gameView.js"></script>
 
     <script type="application/javascript">
       (function () {
         var canvasEl = document.getElementsByTagName("canvas")[0];
 
         var ctx = canvasEl.getContext("2d");
+
+        var options = {
+          DIM_X: window.innerWidth,
+          DIM_Y: window.innerHeight,
+          ctx: ctx
+        }
+        var gameView = new Asteroids.GameView(options);
+        gameView.start();
       })();
     </script>
   </body>
