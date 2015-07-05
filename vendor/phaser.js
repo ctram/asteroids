@@ -55973,7 +55973,7 @@ Phaser.Loader.prototype = {
             file.errorMessage = errorMessage;
 
             console.warn('Phaser.Loader - ' + file.type + '[' + file.key + ']' + ': ' + errorMessage);
-            // debugger;
+            // ;
         }
 
         this.processLoadQueue();

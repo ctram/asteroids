@@ -29,9 +29,10 @@
         var options = {
           DIM_X: canvasEl.width,
           DIM_Y: canvasEl.height,
-          ctx: ctx
+          ctx: ctx,
+          canvasEl: canvasEl
         }
-
+        
         gameView = new Asteroids.GameView(options);
         gameView.start();
 
