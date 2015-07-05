@@ -2,13 +2,7 @@
   <head>
     <meta charset="utf-8">
     <title>Asteroids</title>
-  </head>
-
-  <body>
-    <canvas></canvas>
-
     <script type="application/javascript" src="vendor/keymaster.js"></script>
-
     <script type="application/javascript" src="lib/util.js"></script>
     <script type="application/javascript" src="lib/MovingObject.js"></script>
     <script type="application/javascript" src="lib/asteroid.js"></script>
@@ -17,6 +11,12 @@
     <script type="application/javascript" src="lib/gameView.js"></script>
     <script type="application/javascript" src="lib/bullet.js"></script>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
+    <script type="application/javascript" src="vendor/phaser.js"></script>
+  </head>
+
+  <body>
+    <canvas></canvas>
+
 
     <script type="application/javascript">
       (function () {
@@ -38,16 +38,3 @@
     </script>
   </body>
 </html>
-        <!--
-        canvasEl.width = Asteroids.Game.DIM_X;
-        canvasEl.height = Asteroids.Game.DIM_Y;
-        var game = new Asteroids.Game();
-        new Asteroids.GameView(game, ctx).start();
-
-
-        movingObject = new Asteroids.MovingObject({
-          pos: 1
-        });
-
-
-        -->
