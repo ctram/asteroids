@@ -12,10 +12,12 @@
     <script type="application/javascript" src="lib/bullet.js"></script>
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="vendor/phaser.js"></script>
+    <script type="application/javascript" src="vendor/jquery-1.11.3.min.js"></script>
   </head>
 
   <body>
     <canvas></canvas>
+    <div class='.score'></div>
 
 
     <script type="application/javascript">
@@ -32,12 +34,9 @@
           ctx: ctx,
           canvasEl: canvasEl
         }
-        
+
         gameView = new Asteroids.GameView(options);
         gameView.start();
-
-
-
 
       })();
       //
