@@ -3,4 +3,4 @@ My take on the classic from the dawn of the gaming age, playable in the browser!
 
 [Playable demo][live_link]
 
-[live_link]: #
+[live_link]: http://ctram.github.io/
