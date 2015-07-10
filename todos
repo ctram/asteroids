@@ -1,0 +1,1 @@
+TODO: change controls of ship -- turn using arrow keys - shoot with the space bar - accelerate and decelerate using the arrow keys. A ship's velocity "bleeds" off, i.e., if the user does not continue accelerating, the ship eventually stops instead of maintaining constant speed.
