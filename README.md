@@ -9,6 +9,7 @@ Todos:
 - Implement simultaneous key pressing for smoother controls.
 - Shooting cross-hair.
 - Music and sound effects.
+- Varying difficulty: faster moving debris and more of them.
 - Explosions!
 
 
