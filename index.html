@@ -25,6 +25,7 @@
   <body>
     <canvas style='background-color: black'></canvas>
     <div class='score'>Score: 0</div>
+    <div class='timer'></div>
 
     <div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="welcomeModalLabel">
       <div class="modal-dialog" role="document">
@@ -71,11 +72,28 @@
             <h3>
               You win!
             </h3>
+            <div class='instructions'>
+              High score:
+              <div class='high-score'></div>
+            </div>
 
             <div class='instructions'>
-              Your score:
+              Your Score:
               <div class='end-score'></div>
             </div>
+
+            <div class='instructions'>
+              Best Time:
+              <div class='best-time'></div>
+            </div>
+
+            <div class='instructions'>
+              Your Time:
+              <div class='curr-time'></div>
+            </div>
+
+
+            <BR>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default play-again-btn" data-dismiss="modal">Play Again!</button>

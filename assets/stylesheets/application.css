@@ -1,14 +1,24 @@
-.score {
+.score, .timer {
   z-index: 1001;
   background-color: rgba(255,0,0,0);
   position: absolute;
+  color: white;
+  font-size: 22pt;
+  padding-top: 18px;
+}
+
+.timer {
   right: 1%;
   top: 2%;
   height: 100px;
   width: 33%;
-  color: white;
-  font-size: 22pt;
-  padding-top: 18px;
+}
+
+.score {
+  left: 1%;
+  top: 2%;
+  height: 100px;
+  width: 33%;
 }
 
 canvas {
