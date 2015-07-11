@@ -26,12 +26,12 @@
     <canvas style='background-color: black'></canvas>
     <div class='score'>Score: 0</div>
 
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="welcomeModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content text">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h1 class="modal-title" id="myModalLabel">
+            <h1 class="modal-title" id="welcomeModalLabel">
               Space Debris!
             </h1>
           </div>
@@ -46,6 +46,34 @@
               Down arrow: Move ship backward <br>
               Left arrow: Turn ship left <br>
               Right arrow: Turn ship right <br>
+              Space bar: Fire!!!
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Play!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="winningModal" tabindex="-1" role="dialog" aria-labelledby="winningModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content text">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h1 class="modal-title" id="winningModalLabel">
+              Space Debris!
+            </h1>
+          </div>
+          <div class="modal-body">
+
+            <h3>
+              You win!
+            </h3>
+
+            <div class='instructions'>
+              Your score:
+              <div class='end-score'></div>
             </div>
           </div>
           <div class="modal-footer">
