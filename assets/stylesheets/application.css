@@ -26,6 +26,7 @@ canvas {
   color: white;
 }
 
-.btn {
-
+button.btn {
+  display: block;
+  margin: auto;
 }

@@ -46,7 +46,8 @@
               Down arrow: Move ship backward <br>
               Left arrow: Turn ship left <br>
               Right arrow: Turn ship right <br>
-              Space bar: Fire!!!
+              Space bar: Fire!!!<br><br>
+              Your starting location is random. If you collide into debris, you will be randomly relocated and lose points! Go!
             </div>
           </div>
           <div class="modal-footer">
@@ -77,7 +78,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Play!</button>
+            <button type="button" class="btn btn-default play-again-btn" data-dismiss="modal">Play Again!</button>
           </div>
         </div>
       </div>
@@ -105,7 +106,7 @@
 
 
         jQuery.noConflict();
-        $('.modal').modal();
+        $('#welcomeModal').modal();
 
 
       })();
