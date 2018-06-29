@@ -12,7 +12,7 @@ Some fun challenges in coding this project include the random generation of spac
 
 In browser, open `index.html`.
 
-Todos:
+## Todos:
 - Persisting scores between page refreshes.
 - Ship "lives". Lose all your lives, game over.
 - Implement simultaneous key pressing for smoother controls.
